@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'VI THUY TIEN HOA';
+  /* Antes de descargar el archivo, le decimos al buscador
+  que intente buscar en local la fuente con nombre
+  Cabin, Cabin Regular o Cabin-Regular */
+  src: local('VI THUY TIEN HOA '),
+       url(https://webfonts.ffonts.net/VI-Thuy-Tien-Hoa.font) format('TTF');
+      }
+
+body {
+  background:#ccc
+}
+#theButton {
+  margin:40px auto;
+  display:block;
+  height:70px;
+  
+  border:0;
+  
+  padding:9px 20px;
+}
+#theButton:hover{
+  cursor:pointer;
+}
+div {
+  text-align:center;
+  font-family:'VI THUY TIEN HOA';
+  font-size:100px;
+}
+.adj,
+.noun{
+  text-transform:capitalize;
+}
